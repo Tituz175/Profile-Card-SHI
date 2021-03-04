@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    background: linear-gradient(hsl(185, 75%, 39%,0.5),hsl(185, 75%, 39%,0.5)),url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    font-family: Kumbh Sans;
+    color: hsl(229, 23%, 23%);
+    /* background-size: contain; */
+}
+#container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 2px 2px 30px 1px hsl(229, 23%, 23%);
+}
+#cover{
+    background: url("images/bg-pattern-card.svg");
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+}
+#profile{
+    background: white;
+    border-bottom: 1px solid hsl(229, 23%, 23%,0.2);
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    padding-bottom: 25px;
+}
+#details{
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.bigger{
+    font-size: 18px;
+    font-weight: 700;
+}
+#img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background-image: url("images/image-victor.jpg");
+    margin: 0 auto;
+    position: relative;
+    top:95px;
+}
+#social{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    padding: 25px 0px ;
+}
+
+@media screen and (max-width:375px) {
+    #container{
+        width: 300px;
+    }
+}
