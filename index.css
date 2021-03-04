@@ -12,7 +12,7 @@ body{
     border-radius: 15px;
     margin: auto;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     box-shadow: 2px 2px 30px 1px hsl(229, 23%, 23%);
 }
 #cover{
@@ -53,7 +53,9 @@ body{
     border-radius: 0px 0px 15px 15px;
     padding: 25px 0px ;
 }
-
+#social .bigger{
+    margin-bottom: 10px;
+}
 @media screen and (max-width:375px) {
     #container{
         width: 300px;
